@@ -13,8 +13,7 @@ def main():
     f.close()
 
     lista = users_list.split()
-    print(lista)
-
+   
     f = open(route_out, "w")
 
     for i in lista:
